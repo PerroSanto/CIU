@@ -1,0 +1,58 @@
+.imperio {
+  background-color:red;	
+}
+
+.rebeldes {
+	background-color:blue;
+}
+
+#vader {
+	font-size: 200%; 
+}
+
+#luke {
+	font-style: italic;
+}
+
+.soldados {
+	border-style: dashed solid;
+}
+
+.soldadoespacio {
+	letter-spacing: 50px;
+}
+
+.apoyocentrada {
+	text-align: center;
+}
+
+.navesmayusculas {
+	text-transform: uppercase;
+}
+
+.fontexterno {
+	font-family: 'Roboto', sans-serif;
+}
+
+#imperiodiv *{
+	background-color: black;
+	color: red;
+}
+
+#rebeldesdiv *{
+	background-color: #ffa500;
+	color: rgb(255,255,255);
+}
+
+#vaderspan{
+		background-color: white;
+		color: green;
+}
+
+#lukespan{
+		background-color: white;
+		color: yellow;
+}
+
+
+

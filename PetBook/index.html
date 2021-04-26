@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PetBook</title>
+</head>
+<body>
+
+<h1>Te damos la bienvenida a PetBook</h1>
+
+<form action="https://formspree.io/f/mjvjkqpg" method="post">
+	<label> Nombre de tu mascota:<input type="text" name="Nombre" placeholder = "Nombre"></label><br>
+
+	<label for="anios">Anios</label>
+	<input type="number" name="anios" placeholder="Anios"><br>
+
+	<label for="email">Email</label>
+	<input type="email" name="email" placeholder="Email" required><br>
+
+	<label for="password">Password</label>
+	<input type="password" name="Password" placeholder="Password"><br>
+
+	<label for="color">Color</label>
+	<input type="color" name="color" placeholder="Color"></label><br>
+
+	<label>Genero:
+	<label>machito 
+	<input type="radio" name="genero" value="macho" placeholder="Genero">
+	</label>
+
+	<label>hembrita
+	<input type="radio" name="genero" value="hembra" placeholder="hembra"><br>
+	</label>
+	<br>
+
+	<label for="tipo_de_mascota">Tipo de mascota</label>
+	<select name="tipo_de_mascota">
+		<option value="perro">Perro</option>
+		<option value="gato">Gato</option>
+		<option value="cobaya">Cobaya</option>
+		<option value="conejo">Conejo</option>
+		<option value="hamster">Hamster</option>
+	</select><br>
+
+	<label for="textarea1">Contanos algo sobre tu mascota:</label>
+	<textarea rows="10" cols="40" name="textarea1"></textarea><br>
+
+	<label>Acepta las condiciones: <input type="checkbox" name="bases_y_condiciones" value="acepta"></label><br>
+	<br>
+
+	<button type="submit">Submit</button>
+	<br>
+
+</form>
+</body>
+</html>
