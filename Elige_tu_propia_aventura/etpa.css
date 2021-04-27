@@ -1,0 +1,20 @@
+
+body {background-color: #666666;}
+
+.centrado {
+  	text-align: center;
+	color: rgb(255,245,225);
+  
+}
+.roboto {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.texto {
+	
+	text-align: justify;
+	margin-left: 150px;
+	margin-right: 150px;
+	color: rgb(255,245,225);
+}
