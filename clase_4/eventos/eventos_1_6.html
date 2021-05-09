@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="eventos_1_6.css" type="text/css">
+</head>
+<body>
+
+<button>Show me the Money </button>
+<button>Show me Miami </button>
+<button>Show me Maiameee </button>
+
+<img src="money.jpg" class="oculto" id="money">
+<img src="miami.jpg" class="oculto" id="miami">
+<img src="ricky.jpg" class="oculto" id="ricky">
+
+
+<script type="text/javascript">
+	var boton = document.querySelectorAll("button")
+
+	for(var i = 0; i < boton.length; i++){
+    boton[i].addEventListener("click", function(){
+        this.classList.toggle("oculto")
+    })   
+}
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="ej_dom.css">
+</head>
+<body>
+<!-- <div style="color:green;width: 300px;height: 300px; background-color: black"> -->
+<div>
+	<h1>Div con estilo propio</h1>
+</div>
+
+<script type="text/javascript">
+	var $div = document.querySelector("div")
+	//$div.classList.add("square")
+	setInterval(function(){ $div.classList.toggle("square"); }, 1000);
+</script>
+</body>
+</html>
+

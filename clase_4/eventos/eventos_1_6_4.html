@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style="background:#FFFFFF">
+<p>El color va en Hexa porque somos pro.
+<input type="text" name="" id="elInput">
+
+
+<script type="text/javascript">
+	var cuerpo = document.querySelector("body")
+	var elInput = document.getElementById("elInput");
+
+
+elInput.addEventListener("keyup", function(event) {
+	if (event.keyCode === 13) {
+		cuerpo.style.background = "#"+elInput.value;
+  }else if (event.keyCode === 8) {
+		cuerpo.style.background = "#FFFFFF";
+	}
+
+});
+
+
+
+</script>
+
+</body>
+</html>

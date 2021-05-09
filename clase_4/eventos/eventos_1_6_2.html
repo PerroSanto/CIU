@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: 100vh;">
+
+<img src="https://media.giphy.com/media/MtQxKzhytFsmQ/giphy.gif" style="position: fixed;top:200px;left:200px;cursor:none;">
+
+<script type="text/javascript">
+var imagen = document.querySelector("img");
+document.addEventListener("mousemove", capturaMovimiento);
+
+function capturaMovimiento(mov) {
+  imagen.style.top  = mov.clientY+"px";
+  imagen.style.left  = mov.clientX+"px";
+}
+
+</script>
+</body>
+</html>

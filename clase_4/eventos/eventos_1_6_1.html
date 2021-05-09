@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="eventos_1_6_1.css" type="text/css">
+</head>
+<body>
+<button id="boton1">Show me the Money</button>
+<button id="boton2">Show me Miami</button>
+<button id="boton3">Show me Maiameee</button>
+
+<img src="money.jpg" class="oculto" id="money">
+<img src="miami.jpg" class="oculto" id="miami">
+<img src="ricky.jpg" class="oculto" id="ricky">
+
+
+<script type="text/javascript">
+var boton1 = document.querySelector("#boton1");
+var boton2 = document.querySelector("#boton2");
+var boton3 = document.querySelector("#boton3");
+var money = document.querySelector("#money");
+var miami = document.querySelector("#miami");
+var ricky = document.querySelector("#ricky");
+
+boton1.addEventListener("click", function(){
+    money.classList.toggle("oculto");
+})
+
+boton2.addEventListener("click", function(){
+    miami.classList.toggle("oculto");
+})
+
+boton3.addEventListener("click", function(){
+    ricky.classList.toggle("oculto");
+})
+
+	var imagenes = document.querySelectorAll("img")
+
+	for(var i = 0; i < imagenes.length; i++){
+    imagenes[i].addEventListener("click", function(){
+        this.classList.toggle("oculto")
+    })
+}
+</script>
+</body>
+</html>

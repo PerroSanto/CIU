@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<button>Haz Click!</button>
+<p>Nadie me ha clickeado aún</p>
+
+
+<script type="text/javascript">
+var boton = document.querySelector("button")
+var parrafo = document.querySelector("p")
+boton.addEventListener("click", function(){
+    parrafo.textContent = "Alguien hizo click!"
+})
+</script>
+</body>
+</html>
